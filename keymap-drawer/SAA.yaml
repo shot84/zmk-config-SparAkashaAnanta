@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: SAA}
 layers:
   Def:
-  - TAB
+  - ESCAPE
   - Q
   - W
   - E
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - BKSP
-  - {t: ESC, h: BT}
+  - LANG1
+  - {t: TAB, h: BT}
   - A
   - S
   - D
@@ -23,85 +23,85 @@ layers:
   - J
   - K
   - L
-  - SEMI
-  - {t: SQT, h: Mouse}
+  - MINUS
+  - MINUS
   - LSHFT
-  - Z
+  - {t: Z, h: LSHIFT}
   - X
   - C
   - V
   - B
   - N
   - M
-  - COMMA
-  - DOT
-  - UP
-  - FSLH
-  - {t: ESC, h: LCTL}
-  - LGUI
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - {t: PERIOD, h: BT}
+  - {t: PERIOD, h: BT}
+  - LCTRL
   - LALT
-  - {t: SPACE, h: Num}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Fnc}
-  - {t: SPACE, h: Num}
-  - LEFT
-  - DOWN
-  - RIGHT
+  - LSHFT
+  - {t: SPACE, h: Scr}
+  - {t: LANGUAGE 1, h: Fnc}
+  - BACKSPACE
+  - {t: ENTER, h: Num}
+  - Gui+SPACE
+  - COMMA
+  - COMMA
   - LEFT
   - UP
-  - SPACE
+  - LANG1
   - DOWN
   - RIGHT
+  - PAGE DOWN
   - HOME
-  - PG UP
-  - ENTER
-  - PG DN
+  - '&mkp MB3'
   - END
-  - A
+  - PG UP
+  - {t: LANGUAGE 2, h: LGUI}
   - B
   Fnc:
-  - GRAVE
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
   - {t: ▽, type: trans}
-  - F1
+  - {t: ▽, type: trans}
   - F2
-  - F3
+  - Ctl+Alt+LEFT
+  - Ctl+Alt+RIGHT
   - F4
-  - F5
-  - {t: ▽, type: trans}
-  - '&tog_ls'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - END
-  - {t: ▽, type: trans}
-  - F6
-  - F7
-  - F8
-  - F9
+  - F1
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BKSP
-  - DEL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F11
-  - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
-  - ENTER
+  - {t: ▽, type: trans}
+  - SEMICOLON
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - SQT
+  - Sft+Gui+DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TILDE
+  - LESS THAN
+  - GREATER THAN
+  - Sft+Gui+D
+  - Gui+Sft+4
+  - Sft+Gui+5
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+2
+  - EQUAL
   - {t: ENTER, type: held}
-  - ENTER
+  - DELETE
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -111,71 +111,71 @@ layers:
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
+  - VOLUME DOWN
+  - Gui+LEFT BRACKET
   - ENTER
-  - PG DN
-  - END
-  - A
+  - Gui+RIGHT BRACKET
+  - VOLUME UP
+  - {t: LANGUAGE 2, h: LGUI}
   - B
   Num:
-  - CAPS
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
+  - TAB
+  - TAB
   - '7'
   - '8'
   - '9'
-  - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - MINUS
-  - EQUAL
-  - LBKT
-  - RBKT
-  - BSLH
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: LSHFT}
-  - BACKSPACE
-  - DEL
+  - Ctl+LEFT
+  - Ctl+RIGHT
+  - Ctl+UP ARROW
+  - Ctl+DOWN
+  - Ctl+Sft+Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - FSLH
-  - SEMI
-  - SQT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ENTER
-  - ENTER
-  - {t: ENTER, type: held}
-  - ENTER
-  - ENTER
-  - ENTER
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - COLON
+  - Gui+RIGHT BRACKET
+  - AT SIGN
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: SLASH, h: LEFT SHIFT}
+  - '1'
+  - '2'
+  - '3'
+  - BACKSLASH
+  - Gui+LEFT BRACKET
   - LEFT
-  - UP
-  - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - LEFT ALT
+  - Ctl+Gui+R
+  - Ctl+Sft+S
   - ENTER
-  - PG DN
+  - {t: ENTER, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT
+  - Ctl+UP
+  - Ctl+Gui+F
+  - Ctl+DOWN
+  - Ctl+RIGHT
+  - PAGE DOWN
+  - HOME
+  - ENTER
   - END
-  - A
+  - PAGE UP
+  - {t: LANGUAGE 2, h: LGUI}
   - B
   Mouse:
   - {t: ▽, type: trans}
@@ -197,11 +197,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
   - '&mkp MB3'
+  - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -210,8 +209,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB3'
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -234,84 +234,86 @@ layers:
   - ENTER
   - PG DN
   - END
-  - A
+  - {t: LANGUAGE 2, h: LGUI}
   - B
   Scr:
   - {t: ▽, type: trans}
+  - ESCAPE
+  - Gui+F2
+  - Ctl+Alt+LEFT
+  - Ctl+Alt+RIGHT
+  - PIPE
+  - Ctl+Alt+D
+  - Alt+Ctl+E
+  - Alt+Ctl+F
+  - Ctl+Alt+T
+  - Ctl+Alt+G
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - TAB
+  - DOUBLE QUOTES
+  - AMPERSAND
+  - LEFT PARENTHESIS
+  - RIGHT PARENTHESIS
+  - LEFT BRACKET
+  - RIGHT BRACKET
+  - SQT
+  - Sft+Gui+DOWN
+  - Ctl+Alt+ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - HASH
+  - PLUS
+  - '!'
+  - QUESTION
+  - TILDE
+  - Gui+A
+  - Gui+C
+  - Gui+V
+  - Ctl+Q
   - {t: ▽, type: trans}
+  - Gui+PLUS
+  - LCTRL
   - {t: ▽, type: trans}
+  - AT SIGN
+  - {type: held}
   - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB3'
-  - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Gui+V
+  - Gui+Sft+V
+  - Gui+MINUS
   - LEFT
   - UP
   - SPACE
   - DOWN
   - RIGHT
-  - HOME
-  - PG UP
+  - Sft+Gui+Z
+  - Ctl+Sft+TAB
   - ENTER
-  - PG DN
-  - END
-  - A
+  - Ctl+TAB
+  - Gui+Z
+  - EQUAL
   - B
   BT:
   - BT CLR
   - {t: BT, h: '0'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+Alt+MINUS
+  - Gui+Alt+Sft+EQUAL
+  - BT CLR ALL
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Sft+F11
+  - Alt+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,22 +337,92 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - '&studio_unlock'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT
+  - Gui+Alt+UP ARROW
   - UP
   - SPACE
   - DOWN
-  - RIGHT
+  - Gui+Alt+DOWN
   - HOME
   - PG UP
   - ENTER
   - PG DN
   - END
-  - A
+  - {t: LANGUAGE 2, h: LGUI}
   - B
+  '6':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [5, 4]
+  k: Gui+T
+- p: [30, 31]
+  k: Gui+N
+- p: [6, 7]
+  k: Alt+Gui+U
+- p: [29, 28]
+  k: Gui+Sft+V
+- p: [1, 2]
+  k: Gui+W
+- p: [17, 16]
+  k: Gui+F
