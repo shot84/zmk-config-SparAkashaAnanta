@@ -79,10 +79,7 @@ manifest:
     - name: zmk-driver-MLX90393
       remote: te9no
       revision: main
-    - name: prospector-zmk-module
-      remote: prospector
-      revision: v1.0.0
-      path: modules/prospector-zmk-module
+
     - name: zmk-module-runtime-input-processor
       remote: cormoran
       revision: main
